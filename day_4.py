@@ -3,7 +3,7 @@
 cpt = 0
 res = []
 
-with open('src/puzzle4.txt') as f:
+with open('src/puzzle_4.txt') as f:
     lines = f.read().split("\n")
 
 def get_num(pair):

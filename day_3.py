@@ -5,7 +5,7 @@ value = list(string.ascii_lowercase) + list(string.ascii_uppercase)
 
 res = []
 
-with open("src/puzzle3.txt") as f:
+with open("src/puzzle_3.txt") as f:
     data = f.read().splitlines()
 
 for i in data:

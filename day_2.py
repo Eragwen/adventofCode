@@ -11,7 +11,7 @@ Pts = {
 "Z" : 3,
 }
 score = 0
-with open("src/puzzle2.txt",'r') as i:
+with open("src/puzzle_2.txt",'r') as i:
     total = i.read().split("\n")
 
 for line in total:
@@ -31,7 +31,7 @@ Pts = {"X" : 1,"Y" : 2,"Z" : 3}
 score = 0
 Strat = {"X": "lose", "Y":"draw", "Z":"win"}
 
-with open("src/puzzle2.txt",'r') as i:
+with open("src/puzzle_2.txt",'r') as i:
     game = i.read().split("\n")
 
 for line in game:
